@@ -1,0 +1,61 @@
+$color_1: #fff;
+
+.design-title {
+	width: 1150px;
+	margin: 0 auto;
+	.graphic-design {
+		width: 1150px;
+		margin: 0 auto;
+	}
+	.video-design {
+		width: 1150px;
+		margin: 0 auto;
+	}
+	.ux-design {
+		width: 1150px;
+		margin: 0 auto;
+	}
+}
+.accordian-header {
+	display: block;
+	font-size: 40px;
+	color: $color_1;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 20px;
+	background: linear-gradient( rgba(12, 153, 161, 0.51), rgba(12, 153, 161, 0.51) ), url('../img/img1.jpg');
+	margin-bottom: 20px;
+}
+.accordian-header2 {
+	display: block;
+	font-size: 40px;
+	color: $color_1;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 20px;
+	background: linear-gradient( rgba(12, 153, 161, 0.51), rgba(12, 153, 161, 0.51) ), url('../img/img2.jpg');
+	margin-bottom: 5px;
+}
+.accordian-header3 {
+	display: block;
+	font-size: 40px;
+	color: $color_1;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px 20px;
+	background: linear-gradient( rgba(12, 153, 161, 0.51), rgba(12, 153, 161, 0.51) ), url('../img/img4.jpg');
+}
+.accordian-content {
+	.col-md-4 {
+		p {
+			font-size: 16px;
+		}
+	}
+	padding: 0;
+	height: 0;
+	overflow: hidden;
+	&:target {
+		height: auto;
+		padding: 20px;
+	}
+}
