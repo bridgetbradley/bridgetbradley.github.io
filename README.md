@@ -1,1 +1,2 @@
-# bridgetbradley.github.io
+# portfolio
+Midterm project
