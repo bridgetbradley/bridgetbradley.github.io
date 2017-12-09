@@ -22,19 +22,16 @@ gulp.task('sass', function () {
 
   .pipe(sass())
 
+  .pipe(gulp.dest('./css'))
+
   .pipe(postcss(plugins))
 
   .pipe(gulp.dest('./css/min'))
-  
-})
 
-gulp.task('sass', function () {
-  return gulp
-  .src('scss/**/*.scss')
-  .pipe(sass())
-  .pipe(gulp.dest('css'))
 })
 
 gulp.task('default', function () {
-  gulp.watch('scss/**/*.scss', ['sass'])
+  gulp.watch(
+  sassPath, 
+  ['sass'])
 })
