@@ -1,4 +1,5 @@
-/*$color_1: #fff;
+@import 'custom';
+@import '../node_modules/bootstrap/scss/bootstrap';
 
 .design-title {
 	width: 1150px;
@@ -58,4 +59,4 @@
 		height: auto;
 		padding: 20px;
 	}
-}//
+}
