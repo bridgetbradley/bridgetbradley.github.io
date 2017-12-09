@@ -1,13 +1,7 @@
 .design-title {
   width: 1150px;
   margin: 0 auto; }
-.design-title .graphic-design {
-    width: 1150px;
-    margin: 0 auto; }
-.design-title .video-design {
-    width: 1150px;
-    margin: 0 auto; }
-.design-title .ux-design {
+  .design-title .graphic-design, .design-title .video-design, .design-title .ux-design {
     width: 1150px;
     margin: 0 auto; }
 
@@ -44,8 +38,8 @@
   padding: 0;
   height: 0;
   overflow: hidden; }
-.accordian-content .col-md-4 p {
-  font-size: 16px; }
-.accordian-content:target {
-  height: auto;
-  padding: 20px; }
+  .accordian-content .col-md-4 p {
+    font-size: 16px; }
+  .accordian-content:target {
+    height: auto;
+    padding: 20px; }
